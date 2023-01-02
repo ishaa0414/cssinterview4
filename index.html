@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css interview 4</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <h2>Create masterhead - add background image and put a text at the center , with button below it .</h2>
+ <div class="masterhead">
+    <h1>HUSTLE!</h1>
+    <input type="button" value="Start Now" class="button" />
+    </div>
+    <hr>
+    <h2>Create header -- left side will have logo and right side will have 4 button.</h2>
+    <div>
+        <div class="navbar">
+         <div class="logo"><img src="./media/Instagram-Logo.png"></div> 
+        <div class="position"><div class="nav-button">LOGIN</div>
+        <div class="nav-button">SIGN UP</div>
+        <div class="nav-button">RATE</div>
+        <div class="nav-button">CONTACT US</div>
+        </div>
+        </div>
+    <hr>
+    <h2>Create 3 cards of height & width 200 px with texts in it , the card should be horizontally placed in web view and vertically in mobile view</h2>
+    <div class="container">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+        </div>
+        <hr>
+        <h2>Replicate the button on Masthead of PrepBytes, Change the background color of button for mobile view and ipad.</h2>
+        <div class="flex">
+            <button>Login</button>
+        <button class="signup">Sign up</button>
+        </div>
+        <hr>
+        <h2>Write code to show implementation of flex.</h2>
+        <p>We have to initialize a container as a flexbox by giving the display property as flex.</p>
+       <div class="flexbox"> <div class="box">First Box</div>
+        <div class="box">Second Box</div>
+        <div class="box">Third Box</div>
+        </div>
+    <p>By using flex property we can change the arrangement of the flex containers,i.e, it can be displayed as a row or column.By default, the flex property is set to row.<br>
+        By using the flex-direction property we can use it to display containers in column.
+    </p>
+    <div class="flexbox1"> <div class="box">First Box</div>
+        <div class="box">Second Box</div>
+        <div class="box">Third Box</div>
+        </div>
+    <p>flex-wrap:this property takes into consideration the width of the flex-containers.If the property is set to wrap ,it will consider the width and when it is set to no wrap, the flex containers shrink to adjust the width of the screen.<br>
+        There is a shorthand for flex-direction: and flex-wrap.It is known as flex-flow.<br>
+        example: flex-flow: column wrap;<br>
+       justify-content will justify the content in horizontal direction<br>
+       <ul type="circle">
+       <li>justify-content: center;</li> 
+       <li>justify-content: space-between;</li>
+       <li> justify-content: space-evenly; </li>
+       <li>justify-content: space-around; </li>
+       </ul>
+       <br>
+       align-items will justify the content in vertical direction .
+<ul type="circle">
+    <li>align-items: center;</li>
+    <li>align-items: flex-end;</li>
+    <li>align-items: flex-start;</li>
+    <li>align-items: stretch;</li>
+</ul>
+</p>
+<hr>
+</body>
+</html>

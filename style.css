@@ -1,0 +1,126 @@
+body{
+    background-color:#ccbba7;
+    font-family:sans-serif;
+}
+h2{
+    color:#332d2d;
+    border:1px solid grey;
+}
+h4{
+   text-decoration:underline;
+   color:#670606; 
+}
+p{
+    line-height:20px;
+}
+.masterhead 
+{
+    text-align: center;
+    height: 200px;
+    background-image:url(./media/images.jpg);
+    background-size: cover;
+    color:aliceblue;
+    padding-top:30px;
+}
+.button
+{
+    width:150px;
+    background-color: bisque;
+    height:25px;
+    border-radius: 13px;
+}
+img{
+    height:50px;
+}
+    .navbar {
+    margin-right: 70px;
+    display: flex;
+}
+    .nav-button {
+    border:1px solid hotpink;
+    background-color:palevioletred;
+    color:white;
+    margin-left:20px;
+    height:20px;
+    padding:5px;
+    border-radius:10px;
+}
+.position{
+    position:relative;
+    left:500px;
+    display:flex;
+}
+.container
+{
+display: flex;
+justify-content: space-evenly;
+}
+.card
+{
+border: 2px groove gray;
+background-color: darkseagreen;
+width: 200px;
+height: 200px;
+text-align:center;
+}
+@media screen and (max-width:720px) {
+.container{
+flex-direction: column
+}
+}
+button {
+    background-color:white;
+    border: 2px solid magenta;
+    border-radius: 5px;
+    color: magenta;
+    margin-left:80px;
+    }
+    button:hover{
+    color: black;
+    }
+    .signup{
+        background-color: magenta;
+        color:white;
+    }
+    .flex{
+        display:flex;
+    }
+    @media only screen and (max-width: 800px) and (min-width: 480px){
+        .flex{
+            flex-direction:column;
+        }
+        button{
+            background-color:blanchedalmond;
+            width:100px;
+            margin-bottom:50px;
+        }
+        .signup{
+            background-color: darkolivegreen;
+        }
+    }
+    @media only screen and (max-width: 480px) and (min-width: 320px) {
+        .flex{
+            flex-direction:column;
+        } 
+        button{
+            background-color:lightblue;
+            width:100px;
+            margin-bottom:50px;
+        }
+        .signup{
+            background-color:darkslategray;
+        }
+    }
+    .flexbox{
+        display:flex;
+    }
+.box{
+    height:200px;
+    width:200px;
+    background-color: lightsteelblue;
+    margin:30px;
+}
+.flexbox1{
+    display:flex;
+    flex-direction:column;
+}
